@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>online-booking</title>
+	<style type="text/css">
+	h1{margin-left: 100px;}
+				body{background-image: url(var.jpg);
+			background-size: 100%;
+			margin-left: 400px;
+			margin-right: 100px;
+		}
+		form{padding-top: 20px;
+			padding-right: 150px;
+			margin-right: 100px;}
+			label{
+				width: 200px;
+				text-align:left;
+			}
+	</style>
+
+</head>
+<body>
+<h1 style="font-family: times;color: white; margin-right:300px">Classy Booking Form</h1>
+<form>
+	<fieldset>
+		<label for="username" style="float: left;">Username*</label>
+		<input type="fullname" name="fullname" placeholder="Fullname" required=""><br></br>
+		<label for="Email-ID" style="float: left;">Email-ID*</label>
+		<input type="Email" name="Email" placeholder="Email-ID" required=""><br></br>
+		<label for="phonenumer" style="float: left;">Phonenumber*</label>
+		<input type="phonenumer" name="phonenumer" placeholder="Phonenumber" required=""><br><br>
+		<label for="Departure Date&Time" style="float: left;">Departure date&time*</label>
+		<input type="date" name="date" placeholder="dd-mm-yy">
+		<input type="time" name="date" placeholder=""><br><br>
+		<label for="return date&time" style="float: left;">Return date&time*</label>
+		<input type="date" name="date" placeholder="dd-mm-yy">
+		<input type="time" name="time" placeholder=""><br><br>
+		<label for="pickup address" style="float: left;">Pickup-Address*</label>
+		<textarea rows="2" cols="20">Pickup-Address</textarea><br><br>
+		<label for="destination address" style="float: left;">Destinstion-Address*</label>
+		<textarea rows="2" cols="20">Destination-Address</textarea><br><br>
+		<label for="journey" style="float: left;">Journey-Type</label>
+		<input type="Journey-Type" name="Journey-Type" placeholder="" required=""><br><br>
+		<label for="no.of passngers" style="float: left;">No.of Passengers</label>
+		<select>
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+		</select><br><br>
+		<label for="message" style="float: left;">Additional-Message</label>
+		<textarea rows="2" cols="20">Additional-message</textarea><br><br>
+		<button style="margin-left: 200px; background-color: black; font-family: arial; color: white">SUBMIT</button>
+	</fieldset>
+</form>
+</body>
+</html>

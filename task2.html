@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RegForm/LoginForm</title>
+	<style type="text/css">
+		h1{margin-left: 400px;}
+		body{
+			background-image: url(var2.jpeg);
+			background-size: 100%;
+		}
+		form.a{
+			padding-left: 10px;
+			padding-bottom: 30px;
+			margin-left: 300px;
+			margin-right: 700px;
+			border:2px solid black;
+			border-radius: 10px;
+			}
+		form.b{	
+			border:2px solid black;
+			border-radius: 10px;
+			margin-left: 670px;
+			margin-right: 300px;
+			padding-left: 20px;
+			padding-bottom: 20px;
+			margin-top: -426px;
+
+		 }
+	</style>
+</head>
+<body>
+		<h1>REGISTRATION/LOGIN FORM</h1>
+		<form class="a">
+			<h2>Register Form</h2>
+			<input type="username" name="username" placeholder="username" required=""><br></br>
+			<input type="Email" name="Email" placeholder="Email" required=""><br></br>
+			Please Enter a valid email address<br></br>
+			<input type="password" name="password" placeholder="password" required="" maxlength="6"><br></br>
+			<input type="confirm password" name="confirm password" placeholder="confirm password" required="" maxlength="6"><br></br>
+			<input type="radio" name="sex" value="female" required="">FEMALE<br></br>
+			<input type="radio" name="sex" value="male" required="">MALE<br></br>
+			<input type="checkbox" name="" required="">I have read and accept terms of use.<br></br>
+			<input type="submit" name="submit" value="submit">
+		</form>
+		<form class="b">
+			<h2>Login Form</h2>
+			<input type="email" name="email" placeholder="Enter Your Email" required=""><br></br>
+			<input type="password" name="password" placeholder="password" required="" maxlength="6"><br></br>
+			<input type="checkbox" name="" required="">
+			Remember me<br></br>
+			<input type="LOGIN" name="LOGIN" value="LOGIN">
+		</form>
+</body>
+</html>

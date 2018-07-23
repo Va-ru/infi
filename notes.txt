@@ -1,0 +1,65 @@
+cntrl+n = new file
+cntrl+s = save file
+cntrl+space = 
+<h1>header1</h1>
+<h2>header2</h2>
+.
+.
+.
+.
+<h6>header6</h6>
+default font size = 14pixel
+font size = <h4>=<p>
+<p title="this is a title"> = information
+<p style="font-size: 24px;color: red"> = font-style
+
+
+
+css
+ in css there are 3 types of styles
+	.inline
+	.internal
+	.external
+inline = in same line
+
+
+
+
+
+<table>
+<th></th> = table header
+<tr></tr> = table row
+<td></td> = table data
+
+
+bullets
+<ul></ul> = unordered list
+<ol></ol> = ordered list
+
+
+div = kind of parent
+all the things below div will hv same properties as that of div example=font family,font size etc....
+
+
+
+
+1.text
+2.email  password
+3.radio 
+4.checkbox
+5.file
+6.color
+7.number
+8.tel
+9.datetime-local
+10.week-month
+11.range
+
+
+
+CLASS = 02
+
+		BOOTSTRAP
+
+xs sm md lg
+<div class = "col-md-5 col-sm-6 col-xs-12">
